@@ -16,7 +16,6 @@ const UserSchema = new mongoose.Schema({
   books: [BookSchema]
 })
 
-
 const UserModel = mongoose.model('User', UserSchema);
 
 module.exports = {
